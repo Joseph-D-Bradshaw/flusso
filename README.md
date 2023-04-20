@@ -18,7 +18,7 @@ Python skips using missing values and exceptions can lead to issues and bugs lik
 - race conditions
 - and so on.
 
-Instead, Python provides two special generic `Option` and `Result` to deal with the above cases.
+Instead, Rust provides two special generic `Option` and `Result` to deal with the above cases.
 
 flusso implements the `Option` & `Result` types for python.
 
